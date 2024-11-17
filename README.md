@@ -41,6 +41,7 @@ To get started with the solution, we have provided a setup tool to help configur
 - AWS CLI with AWS credentials
 - SAM CLI 
 - Docker or other equivalent container runtime CLI
+- Python version >= 3.10
 
 ### Execution steps:
 
