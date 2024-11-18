@@ -7,7 +7,6 @@ directory_to_extract_to = prepare_environment()
 # update path, so that dependencies can be found
 sys.path.insert(0, directory_to_extract_to)
 
-from prompts.store import TemplateStore
 from ragasutils.generate_answer_from_kb import KnowledgeBasesGenerateAnswer
 import pandas as pd
 import os
@@ -15,11 +14,6 @@ import time
 import random
 import pickle
 
-import awswrangler as wr
-
-prompt_template_database = TemplateStore()
-
-from prompts.template import PromptTemplate
 from llm_api.invoke_llm import generate_result
 
 # setup environment variables
