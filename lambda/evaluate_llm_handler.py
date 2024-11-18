@@ -8,7 +8,6 @@ directory_to_extract_to = prepare_environment()
 # update path, so that dependencies can be found
 sys.path.insert(0, directory_to_extract_to)
 
-from prompts.store import TemplateStore
 from handlers.utils.evaluation_util import EvaluationUtils
 from llm_api.invoke_llm import generate_result
 
